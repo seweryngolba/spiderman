@@ -1,0 +1,27 @@
+nav {
+  height: 120px;
+  background: #000;
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 175px;
+}
+
+.fa-spider,
+.fa-bars {
+  font-size: 32px;
+  color: red;
+}
