@@ -25,3 +25,8 @@ nav {
   font-size: 32px;
   color: red;
 }
+
+header {
+  height: 100vh;
+  background: linear-gradient(red, blue);
+}
