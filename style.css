@@ -30,3 +30,30 @@ header {
   height: 100vh;
   background: linear-gradient(red, blue);
 }
+
+.log-land {
+  width: 320px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 20px;
+  color: red;
+  padding: 10px 20px;
+  background: black;
+  border-radius: 10px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
