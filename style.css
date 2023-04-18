@@ -27,7 +27,7 @@ nav {
 }
 
 header {
-  height: 100vh;
+  /* height: 100vh; */
   background: linear-gradient(red, blue);
 }
 
@@ -56,4 +56,15 @@ a {
   display: flex;
   align-items: center;
   gap: 20px;
+}
+
+.landing {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.spidey {
+  width: 500px;
+  aspect-ratio: 1;
 }
