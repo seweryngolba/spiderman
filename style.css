@@ -68,3 +68,30 @@ a {
   width: 500px;
   aspect-ratio: 1;
 }
+
+.box {
+  height: 150px;
+  background: red;
+  display: flex;
+  align-items: center;
+}
+
+.que {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.qq {
+  font-size: 26px;
+  font-weight: bold;
+  color: white;
+}
+
+.who {
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  font-style: italic;
+}
