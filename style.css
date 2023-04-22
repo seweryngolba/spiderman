@@ -70,7 +70,7 @@ a {
 }
 
 .box {
-  height: 150px;
+  height: 140px;
   background: red;
   display: flex;
   align-items: center;
