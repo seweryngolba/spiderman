@@ -81,6 +81,15 @@ a {
   background: black;
 }
 
+.box:hover .qq,
+.box:hover .who {
+  visibility: hidden;
+}
+
+.box:hover .fa-spider {
+  transform: translateY(-40px);
+}
+
 .que {
   display: flex;
   align-items: center;
@@ -99,4 +108,8 @@ a {
   font-weight: bold;
   color: white;
   font-style: italic;
+}
+
+.que .fa-spider {
+  transition: all 1s linear;
 }
